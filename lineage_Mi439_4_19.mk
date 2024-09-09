@@ -28,6 +28,12 @@ PRODUCT_PACKAGES += \
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
+
+# Sakura stuff
+SAKURA_MAINTAINER := FARHAN•AFK
+TARGET_BOOT_ANIMATION_RES := 720
+ROM_FOLDER := lineage
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := Mi439_4_19
 PRODUCT_NAME := lineage_Mi439_4_19
